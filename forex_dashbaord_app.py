@@ -10,7 +10,7 @@ from email.message import EmailMessage
 from streamlit_autorefresh import st_autorefresh
 
 # === Configurable constants (securely via Streamlit Secrets in production)
-NEWS_API_KEY = st.secrets["news_api_key"]  # Set in Streamlit Cloud Secrets
+NEWS_API_KEY = st.secrets["NEWS_API_KEY"]  # Set in Streamlit Cloud Secrets
 EMAIL_ADDRESS = st.secrets["email_address"]
 EMAIL_PASSWORD = st.secrets["email_password"]
 TELEGRAM_BOT_TOKEN = st.secrets["telegram_bot_token"]
