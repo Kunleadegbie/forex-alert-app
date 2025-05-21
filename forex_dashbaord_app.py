@@ -11,8 +11,8 @@ from streamlit_autorefresh import st_autorefresh
 
 # === Configurable constants (securely via Streamlit Secrets in production)
 NEWS_API_KEY = st.secrets["NEWS_API_KEY"]  # Set in Streamlit Cloud Secrets
-EMAIL_ADDRESS = st.secrets["email_address"]
-EMAIL_PASSWORD = st.secrets["email_password"]
+EMAIL_ADDRESS = st.secrets["EMAIL_USER"]
+EMAIL_PASSWORD = st.secrets["EMAIL_PASS"]
 TELEGRAM_BOT_TOKEN = st.secrets["telegram_bot_token"]
 TELEGRAM_CHAT_ID = st.secrets["telegram_chat_id"]
 
