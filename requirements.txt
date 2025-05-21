@@ -1,0 +1,7 @@
+streamlit
+pandas
+matplotlib
+requests
+smtplib
+email-validator
+python-telegram-bot
